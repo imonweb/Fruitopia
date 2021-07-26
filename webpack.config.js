@@ -10,7 +10,7 @@ module.exports = {
       server._watch('./src/*.html')
     },
     contentBase: path.join(__dirname,'src'),
-    hot: true;
+    hot: true,
     port: 3000,
   },
   module: {
